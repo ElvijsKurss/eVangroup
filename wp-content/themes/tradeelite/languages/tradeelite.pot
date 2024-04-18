@@ -1,0 +1,340 @@
+# Copyright (C) {2024} Firefly Themes
+msgid ""
+msgstr ""
+"Project-Id-Version: TradeElite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://fireflythemes.com/support/\n"
+"POT-Creation-Date: 2024-04-08 13:11:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Firefly Themes <info@fireflythemes.com>\n"
+"Language-Team: Firefly Themes <info@fireflythemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: patterns/404.php:10
+msgid "0"
+msgstr ""
+
+#: patterns/404.php:10
+msgid "4"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "TradeElite"
+msgstr ""
+
+#: patterns/404.php:14
+msgid "PhotoThis page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/contact-info.php:11
+msgid "About Company"
+msgstr ""
+
+#: patterns/contact-info.php:15 patterns/footer.php:83
+msgid "Quick Contact"
+msgstr ""
+
+#: patterns/contact-info.php:32 patterns/contact-info.php:98
+msgid "Main Office"
+msgstr ""
+
+#: patterns/contact-info.php:47 patterns/contact-info.php:113
+#: patterns/footer.php:98
+msgid "+123 456 789"
+msgstr ""
+
+#: patterns/contact-info.php:61 patterns/footer.php:112 patterns/header.php:29
+msgid "support@example.com"
+msgstr ""
+
+#: patterns/contact-info.php:75 patterns/contact-info.php:141
+#: patterns/footer.php:126
+msgid "Sumter, SC 29150"
+msgstr ""
+
+#: patterns/contact-info.php:89 patterns/contact-info.php:155
+#: patterns/footer.php:140
+msgid "9 AM  - 5 PM"
+msgstr ""
+
+#: patterns/contact-info.php:166
+msgid "Insert Contact Form Block"
+msgstr ""
+
+#: patterns/cta.php:13
+msgid "Convinced ? Well Let’s have a talk then."
+msgstr ""
+
+#: patterns/cta.php:18
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer.php:13 patterns/footer.php:63 patterns/hero-content.php:13
+#: patterns/main-banner.php:32
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer.php:18
+msgid ""
+"There are many variations of passages of Lorem Ipsum available, but the "
+"majority have suffered alteration in some form, by injected humour"
+msgstr ""
+
+#: patterns/footer.php:23 patterns/wwd.php:30 patterns/wwd.php:56
+#: patterns/wwd.php:82 patterns/wwd.php:108
+msgid "Know More"
+msgstr ""
+
+#: patterns/footer.php:31
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer.php:37
+msgid "Team"
+msgstr ""
+
+#: patterns/footer.php:41
+msgid "Company"
+msgstr ""
+
+#: patterns/footer.php:45
+msgid "Pricing"
+msgstr ""
+
+#: patterns/footer.php:49
+msgid "Blog"
+msgstr ""
+
+#: patterns/footer.php:57
+msgid "Resources"
+msgstr ""
+
+#: patterns/footer.php:67
+msgid "Services"
+msgstr ""
+
+#: patterns/footer.php:71
+msgid "Careers"
+msgstr ""
+
+#: patterns/footer.php:75
+msgid "FAQ"
+msgstr ""
+
+#: patterns/footer.php:150
+msgid "Proudly powered by"
+msgstr ""
+
+#: patterns/footer.php:150
+msgid "https://fireflythemes.com"
+msgstr ""
+
+#: patterns/footer.php:150
+msgid "Firefly Themes"
+msgstr ""
+
+#: patterns/footer.php:150
+msgid "and"
+msgstr ""
+
+#: patterns/footer.php:150
+msgid "https://wordpress.org"
+msgstr ""
+
+#: patterns/footer.php:150
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header.php:39
+msgid "Sumter,SC 29150"
+msgstr ""
+
+#: patterns/header.php:66
+msgid "+ 98 123 7345"
+msgstr ""
+
+#: patterns/header.php:70
+msgid "Have any Questions?"
+msgstr ""
+
+#: patterns/hero-content.php:17
+msgid "Work with the top agency to grow"
+msgstr ""
+
+#: patterns/hero-content.php:21
+msgid ""
+"We solve business problems,take a consultative approach to every client "
+"engagement, and find actionable solutions that will help your organization "
+"achieve the best business outcomes"
+msgstr ""
+
+#: patterns/hero-content.php:25
+msgid ""
+"We solve business problems,take a consultative approach to every client "
+"engagement, and find actionable solutions that will help your organization "
+"achieve the best business outcomes."
+msgstr ""
+
+#: patterns/hero-content.php:31
+msgid "About More"
+msgstr ""
+
+#: patterns/hero-content.php:41
+msgid "+123 4567 23"
+msgstr ""
+
+#: patterns/latest-news.php:12
+msgid "From Our Blog"
+msgstr ""
+
+#: patterns/latest-news.php:16
+msgid "Recent News"
+msgstr ""
+
+#: patterns/latest-news.php:43
+msgid "Explore More"
+msgstr ""
+
+#: patterns/main-banner.php:13
+msgid "Consulting Agency For Every Business"
+msgstr ""
+
+#: patterns/main-banner.php:18 patterns/wwd.php:25 patterns/wwd.php:51
+#: patterns/wwd.php:77 patterns/wwd.php:103
+msgid "We design an elegant set of WordPress Themes &amp; Plugins"
+msgstr ""
+
+#: patterns/main-banner.php:22
+msgid "that help you create the website you always wanted!"
+msgstr ""
+
+#: patterns/main-banner.php:28
+msgid "Get Started"
+msgstr ""
+
+#: patterns/our-team.php:11
+msgid "OUR TEAM"
+msgstr ""
+
+#: patterns/our-team.php:15
+msgid "Introducing the Extraordinary Individuals Who Comprise Our Team of Experts"
+msgstr ""
+
+#: patterns/our-team.php:35 patterns/our-team.php:61 patterns/our-team.php:87
+#: patterns/our-team.php:113
+msgid "Justin Hammer"
+msgstr ""
+
+#: patterns/our-team.php:39
+msgid "Founder &amp; CEO"
+msgstr ""
+
+#: patterns/our-team.php:65 patterns/our-team.php:117
+msgid "Chief Finance Officer"
+msgstr ""
+
+#: patterns/our-team.php:91
+msgid "Manager"
+msgstr ""
+
+#: patterns/recent-works.php:11
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/recent-works.php:15
+msgid "New Case Studies"
+msgstr ""
+
+#: patterns/recent-works.php:36 patterns/recent-works.php:86
+msgid "Advertising Technology"
+msgstr ""
+
+#: patterns/recent-works.php:52 patterns/recent-works.php:102
+msgid "Sales Analysis"
+msgstr ""
+
+#: patterns/recent-works.php:68 patterns/recent-works.php:118
+msgid "Security Services"
+msgstr ""
+
+#: patterns/sidebar.php:19
+msgid "Recent Categories"
+msgstr ""
+
+#: patterns/sidebar.php:37
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/sidebar.php:55
+msgid "Post Archive"
+msgstr ""
+
+#: patterns/sidebar.php:75
+msgid "Catogery Tags"
+msgstr ""
+
+#: patterns/sidebar.php:93
+msgid "Connect With Us"
+msgstr ""
+
+#: patterns/wwd.php:21
+msgid "Restructuring"
+msgstr ""
+
+#: patterns/wwd.php:47
+msgid "Good Approach"
+msgstr ""
+
+#: patterns/wwd.php:73
+msgid "Strategy"
+msgstr ""
+
+#: patterns/wwd.php:99
+msgid "Financial Planning"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://fireflythemes.com/themes/tradeelite"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Are you ready to take business to the next level and elevate your online "
+"presence? Look no further than TradeElite, the cutting-edge WordPress "
+"Multipurpose theme designed by Firefly Themes. This FSE Ready theme is "
+"crafted to perfection, offering seamless integration with Full Site Editing "
+"(FSE) capabilities. With TradeElite, unleash your creativity and build "
+"stunning websites effortlessly. The power of Full Site Editing allows you "
+"to easily add and edit the features to create your own unique website. "
+"TradeElite is Responsive, easily customizable, SEO Friendly theme and has "
+"impressive features. It has different customizable patterns such as About "
+"us, Portfolio, Our Team, Contact Us, elegant header  and footer sections. "
+"With the mentioned options you can build a professional looking website in "
+"no time. If you have any confusion our support team is always there for "
+"your service. Don't let outdated themes hold you back. Update to TradeElite "
+"today and unleash the full potential of your business. Visit "
+"https://fireflythemes.com/support for support, "
+"https://fireflythemes.com/documentation/tradeelite for theme documentation "
+"and https://demo.fireflythemes.com/tradeelite for demo."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ffthemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://fireflythemes.com/"
+msgstr ""
