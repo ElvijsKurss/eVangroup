@@ -48,9 +48,10 @@
 
 .navbar-link-element {
   color: white;
+  transition: 0.3s ease-in-out;
 }
 .navbar-link-element:hover {
-  color: red;
+  color: #e9840a;
 }
 
 /*Disables themes built-in hover effect*/
@@ -93,6 +94,7 @@
 .wp-block-button__link.has-background.has-text-align-left.wp-element-button,
 .wp-block-button__link.has-background.wp-element-button {
   background-color: #e9840a !important;
+  transition: 0.3s ease-in-out;
 }
 .wp-block-button__link.has-background.has-text-align-left.wp-element-button:hover,
 .wp-block-button__link.has-background.wp-element-button:hover {
@@ -101,6 +103,7 @@
 
 .wp-block-button__link.has-background.wp-element-button {
   background-color: #e9840a !important;
+  transition: 0.3s ease-in-out;
 }
 .wp-block-button__link.has-background.wp-element-button:hover {
   background-color: #d17609 !important;
@@ -252,6 +255,10 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
   background-color: #e9840a;
   padding: 10px;
   margin-top: 10px;
+  transition: 0.3s ease-in-out;
+}
+.form-container .evangroup-form .wpcf7-form-control.wpcf7-submit.has-spinner:hover {
+  background-color: #a05a07 !important;
 }
 
 .evangroup-form:focus-visible {
@@ -279,4 +286,9 @@ body {
   font-family: "Verdana", "Arial", sans-serif;
   line-height: 1.3;
   color: #373737;
+}
+
+#wpfront-scroll-top-container img {
+  width: 50px !important;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

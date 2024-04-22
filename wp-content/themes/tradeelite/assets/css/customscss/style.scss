@@ -3,6 +3,7 @@
 @import "elements";
 @import "products";
 @import "form";
+@import "root";
 /*Breakpoints*/
 @import "breakpoints";
 
@@ -14,4 +15,9 @@ body {
   font-family: "Verdana", "Arial", sans-serif;
   line-height: 1.3;
   color: #373737;
+}
+
+#wpfront-scroll-top-container img {
+  width: 50px !important;
+  height: auto;
 }

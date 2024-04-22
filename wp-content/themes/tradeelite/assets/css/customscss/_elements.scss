@@ -1,3 +1,4 @@
+@import "root";
 /*Button styling*/
 .read-more {
   // border-radius: 10px;
@@ -6,6 +7,7 @@
 .wp-block-button__link.has-background.wp-element-button {
   // border-radius: 10px;
   background-color: #e9840a !important;
+  @include transition(0.3s ease-in-out);
   &:hover {
     background-color: darken(#e9840a, 5%) !important;
   }
@@ -15,6 +17,7 @@
 }
 .wp-block-button__link.has-background.wp-element-button {
   background-color: #e9840a !important;
+  @include transition(0.3s ease-in-out);
   &:hover {
     background-color: darken(#e9840a, 5%) !important;
   }
