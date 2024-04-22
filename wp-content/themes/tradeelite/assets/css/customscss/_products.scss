@@ -1,0 +1,25 @@
+.product-container {
+  overflow: hidden;
+  border-bottom: 3px solid #f1f1f1;
+  border-top: 3px solid #f1f1f1;
+  &:hover {
+    border-bottom: 3px solid #e9840a;
+    border-top: 3px solid #e9840a;
+  }
+
+  .product-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  .product-text {
+    position: relative;
+    z-index: 1 !important;
+  }
+}

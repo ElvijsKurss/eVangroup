@@ -67,26 +67,6 @@
   left: 620px;
 }
 
-.product-container {
-  overflow: hidden;
-
-  .product-image {
-    position: relative;
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
-    overflow: hidden;
-
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
-  .product-text {
-    position: relative;
-    z-index: 1 !important;
-  }
-}
-
 .hide {
   display: none;
 }

@@ -1,4 +1,4 @@
-/*Responsive navigation bar js*/
+/*Responsive navigation bar js for mobile*/
 $(".nav__trigger").on("click", function (e) {
   e.preventDefault();
   $(this).parent().toggleClass("nav--active");
