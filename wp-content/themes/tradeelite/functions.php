@@ -127,6 +127,7 @@ function evangroup_register_styles()
 {
 	$version = wp_get_theme()->get('Version');
 	wp_enqueue_style('evangroup-style', get_template_directory_uri() . "/assets/css/customscss/style.css", null, $version, 'all');
+	wp_enqueue_style('evangroup-fontawesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css", array(), '4.7.0', 'all');
 }
 add_action('wp_enqueue_scripts', 'evangroup_register_styles');
 function evangroup_register_admin_styles()
@@ -135,3 +136,19 @@ function evangroup_register_admin_styles()
 	wp_enqueue_style('evangroup-style', get_template_directory_uri() . "/assets/css/customscss/style.css", null, $version, 'all');
 }
 add_action('admin_enqueue_scripts', 'evangroup_register_admin_styles');
+
+function evangroup_register_scripts()
+{
+	$version = wp_get_theme()->get('Version');
+
+	// Enqueue jQuery first
+	wp_enqueue_script('evangroup-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js', array(), '3.7.1', true);
+
+	// Enqueue Bootstrap JS
+	wp_enqueue_script('evangroup-bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', array('evangroup-jquery'), '4.4.1', true);
+
+	// Enqueue your custom script
+	wp_enqueue_script('evangroup-main', get_template_directory_uri() . '/assets/javascript/main.js', array('evangroup-jquery'), $version, true);
+}
+
+add_action('wp_enqueue_scripts', 'evangroup_register_scripts');

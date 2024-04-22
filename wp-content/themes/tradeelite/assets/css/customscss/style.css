@@ -1,21 +1,211 @@
-.copyright {
-  color: white;
+.copyright-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px !important;
+  width: 100%;
+  padding-top: 30px;
+}
+.copyright-container .copyright {
+  color: #000;
   font-size: 12px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   opacity: 80%;
   display: flex;
   justify-content: center;
+}
+.copyright-container .footer-line {
+  content: "";
+  display: block;
+  flex: 1 1 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  opacity: 0.3;
+  color: #ccc;
+}
+
+.footer {
+  background: linear-gradient(to top, rgb(216, 216, 216) 0%, rgba(255, 255, 255, 0) 10%);
+}
+
+.footer-header h3 {
+  display: flex;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 0.06);
+  flex-direction: row;
+}
+.footer-header h3:after {
+  content: "";
+  display: block;
+  flex: 1 1 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+  margin-left: 20px;
+}
+
+.navbar-link-element {
+  color: white;
+}
+.navbar-link-element:hover {
+  color: red;
+}
+
+/*Disables themes built-in hover effect*/
+.wp-block-navigation ul li a::after {
+  content: "";
+  display: none;
+}
+
+.navbar {
+  height: 90px;
+  position: fixed;
+  top: 32px;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  z-index: 99;
+  transition: background-color 0.7s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navbar:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar.active {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: background-color 0.7s ease;
+}
+.navbar.active:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*Font awesome 4.7 icon styling*/
+.fa {
+  color: black;
+  font-size: 60px !important;
+}
+
+/*Button styling*/
+.wp-block-button__link.has-background.has-text-align-left.wp-element-button,
+.wp-block-button__link.has-background.wp-element-button {
+  background-color: #e9840a !important;
+}
+.wp-block-button__link.has-background.has-text-align-left.wp-element-button:hover,
+.wp-block-button__link.has-background.wp-element-button:hover {
+  background-color: #d17609 !important;
+}
+
+.wp-block-button__link.has-background.wp-element-button {
+  background-color: #e9840a !important;
+}
+.wp-block-button__link.has-background.wp-element-button:hover {
+  background-color: #d17609 !important;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-cover {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-cover-text-container {
+  overflow: visible;
+  padding: 30px;
+  max-width: 640px;
+  max-height: 260px;
+  border-style: solid;
+  border-width: 1px;
+  justify-content: flex-start;
+  border-color: rgba(255, 255, 255, 0.25);
+  position: absolute;
+  transform-origin: 50% 50%;
+  transform: perspective(600px) skew(-10deg, 0deg) scale(1, 0.9848);
+  display: block;
+  left: 260px;
+  top: 200px;
+  background: rgba(0, 0, 0, 0.15);
+  backface-visibility: visible;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  pointer-events: none;
+  font-size: 90px;
+}
+
+.top-paragraph-container {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 60px;
+  padding: 0px 40px;
+  -webkit-clip-path: polygon(0% 100%, 6% 0%, 100% 0%, 94% 100%);
+          clip-path: polygon(0% 100%, 6% 0%, 100% 0%, 94% 100%);
+  width: 210px;
+  height: auto;
+  background: #e9840a;
+  pointer-events: none;
+  position: absolute;
+  top: 480px;
+  left: 620px;
+}
+
+.product-container {
+  overflow: hidden;
+}
+.product-container .product-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+.product-container .product-image:hover {
+  transform: scale(1.2);
+}
+.product-container .product-text {
+  position: relative;
+  z-index: 1 !important;
+}
+
+.hide {
+  display: none;
+}
+
+.invisible-space {
+  padding-bottom: 30px;
+}
+
+.header-content {
+  display: flex;
+}
+
+.contact-us-section {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /*Breakpoints*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-size: 1.6em; /* default font of 16px */
   font-family: "Verdana", "Arial", sans-serif;
   line-height: 1.3;
   color: #373737;
