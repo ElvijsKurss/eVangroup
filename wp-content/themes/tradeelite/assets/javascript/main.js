@@ -15,3 +15,5 @@ $(window).on("scroll", () => {
     $navBar.removeClass("active");
   }
 });
+
+// alert("Test");

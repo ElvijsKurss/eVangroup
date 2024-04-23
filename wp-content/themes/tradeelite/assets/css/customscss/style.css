@@ -3,7 +3,7 @@
   flex-direction: column;
   max-width: 1300px !important;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 .copyright-container .copyright {
   color: #000;
@@ -46,48 +46,58 @@
   margin-left: 20px;
 }
 
-.navbar-link-element {
-  color: white;
-  transition: 0.3s ease-in-out;
-}
-.navbar-link-element:hover {
-  color: #e9840a;
-}
-
 /*Disables themes built-in hover effect*/
-.wp-block-navigation ul li a::after {
-  content: "";
-  display: none;
-}
-
 .navbar {
   height: 90px;
   position: fixed;
   top: 32px;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.15);
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+  background-color: rgba(233, 132, 10, 0.8);
   z-index: 99;
   transition: background-color 0.7s ease;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.navbar:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
 .navbar.active {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(233, 132, 10, 0.5);
   transition: background-color 0.7s ease;
 }
 .navbar.active:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(233, 132, 10, 0.9);
+}
+.navbar .navbar-link-element {
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+.navbar .navbar-link-element:hover {
+  color: black;
 }
 
 /*Font awesome 4.7 icon styling*/
 .fa {
   color: black;
   font-size: 60px !important;
+}
+
+.shift ul li a {
+  position: relative;
+}
+
+.shift ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: " ";
+  color: transparent;
+  background: #e9840a;
+  height: 1px;
+}
+
+.shift li a:hover:after {
+  width: 100%;
 }
 
 /*Button styling*/
@@ -233,7 +243,7 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
   padding-bottom: 10px;
 }
 .form-container .evangroup-form textarea {
-  max-width: 100%;
+  max-width: 423px;
   background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
