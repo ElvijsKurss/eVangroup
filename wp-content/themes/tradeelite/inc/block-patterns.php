@@ -1,4 +1,5 @@
 <?php
+
 /**
  * TradeElite: Block Patterns
  *
@@ -12,9 +13,10 @@
  *
  * @return void
  */
-function tradeelite_register_block_patterns() {
+function tradeelite_register_block_patterns()
+{
 	$block_pattern_categories = array(
-		'tradeelite' => array( 'label' => esc_html__( 'TradeElite', 'tradeelite' ) ),
+		'tradeelite' => array('label' => esc_html__('TradeElite', 'tradeelite')),
 	);
 
 	/**
@@ -32,12 +34,12 @@ function tradeelite_register_block_patterns() {
 	 *     }
 	 * }
 	 */
-	$block_pattern_categories = apply_filters( 'tradeelite_block_pattern_categories', $block_pattern_categories );
+	$block_pattern_categories = apply_filters('tradeelite_block_pattern_categories', $block_pattern_categories);
 
-	foreach ( $block_pattern_categories as $name => $properties ) {
-		if ( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
-			register_block_pattern_category( $name, $properties );
+	foreach ($block_pattern_categories as $name => $properties) {
+		if (!WP_Block_Pattern_Categories_Registry::get_instance()->is_registered($name)) {
+			register_block_pattern_category($name, $properties);
 		}
 	}
 }
-add_action( 'init', 'tradeelite_register_block_patterns', 9 );
+add_action('init', 'tradeelite_register_block_patterns', 9);
